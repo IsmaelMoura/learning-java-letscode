@@ -7,12 +7,12 @@ import java.util.stream.Collectors;
 
 public class ExerciseFive {
     public static void main(String[] args) {
-        final String[] FRUITS_LIST_ON_SALE = {"BANANA", "ABACAXI", "MELANCIA", "LIMÃO", "UVA"};
+        final String[] FRUITS_LIST_ON_SALE = {"BANANA", "PINEAPPLE", "WATERMELON", "LEMON", "GRAPE"};
         Scanner scanner = new Scanner(System.in);
         List<String> chosenFruitsOnSale = getFruitsOnSale(FRUITS_LIST_ON_SALE, scanner);
 
         System.out.println("You bought this fruits on sale: " + chosenFruitsOnSale.toString());
-        System.out.println("Therefore, you will receive a " + (chosenFruitsOnSale.size() * 5) + "%" + " discount");
+        System.out.println("Therefore, you will receive a " + (chosenFruitsOnSale.size() * 5) + "%" + " discount.");
     }
 
     private static List<String> getFruitsOnSale(String[] FRUITS_LIST_ON_SALE, Scanner scanner) {

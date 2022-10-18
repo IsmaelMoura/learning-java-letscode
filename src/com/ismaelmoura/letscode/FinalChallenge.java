@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class FinalChallenge {
     public static void main(String[] args) {
-        final List<String> AVAILABLE_FRUITS = Arrays.asList("LARANJA", "BANANA", "UVA", "LIMÃO");
+        final List<String> AVAILABLE_FRUITS = Arrays.asList("ORANGE", "BANANA", "GRAPE", "LEMON");
 
 
         List<String> clientList = createClientList();
