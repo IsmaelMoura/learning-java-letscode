@@ -12,16 +12,16 @@ Esse projeto contém 5 exercios de Java feito pela Let's Code (Ada Tech).
 
 You can find the original document (in portuguese) here: [java-exercises-list-and-final-challenge](./java-exercises-list-and-final-challenge.pdf)
 
-### Question 1
+## Question 1
 Write a program which inform the multiplication table of a number informed by user (1 to 10).
 
-#### input:
+### Input
 
 ```terminal
 37
 ```
 
-#### output: 
+### Output
 
 ```terminal
 37 X 1 = 37 
@@ -36,26 +36,26 @@ Write a program which inform the multiplication table of a number informed by us
 37 X 10 = 370
 ```
 
-### Question 2
+## Question 2
 Write a program that converts the temperature from Celsius to Fahrenheit.
 
-#### input:
+### Input
 
 ```terminal
 33
 ```
 
-#### output:
+### Output
 
 ```terminal
 The equivalent of 33.00°C is 91.40°F
 ```
 
-### Question 3
+## Question 3
 Write a program that read the name of 5 fruits and stock in the shopping cart.
 In the end of 5 entries, show the complete list
 
-#### input:
+### Input
 
 ```terminal
 banana
@@ -65,34 +65,39 @@ banana
 apple
 ```
 
-#### output:
+### Output
 
 ```terminal
 Your shopping car has: 
 [BANANA, LEMON, APPLE]
 ```
 
-### Question 4
+## Question 4
 A supermarket announce dearly a list of 5 fruits on sale.
 Write a program that receive the name of fruit do you want to buy and inform if that fruit is on sale.
 
-For exemple:<br>
+For example:<br>
 fruits on sale today: **[ORANGE, BANANA, GRAPE, LEMON]**
-#### input:
+
+### Input
 
 ```terminal
 grape
 ```
 
-#### output:
+### Output
 
 ```terminal
 Good choice! This fruit is on sale today.
 ```
 
-### Question 5
+## Question 5
+Write a program that compares a shopping list and calculates the 5% discount accrued for each fruit found on the list.
 
-#### input:
+For example:
+Fruits on sale today: **[BANANA, PINEAPPLE, WATERMELON, LEMON, GRAPE]**
+
+### Input
 
 ```terminal
 banana
@@ -105,17 +110,22 @@ melancia
 banana
 ```
 
-#### output:
+### Output
 
 ```terminal
-You bought this fruits on sale: [BANANA, LIMÃO, UVA, MELANCIA]
-Therefore, you will receive a 20% discount.
+You bought this fruits on sale: [BANANA]
+Therefore, you will receive a 5% discount.
 ```
 
 ## Final challenge
+Write a program that calculates the buyer's tip based on the correspondence between what was ordered
+and what was actually purchased. Following the following parameters:
 
+- Purchases correspond to **50% or more** of the list, tip of **R$ 3.00**;
+- Purchases correspond to **75% or more** of the list, tip of **R$ 5.00**;
+- Purchases correspond to **90% or more** of the list, tip of **R$ 10.00**.
 
-#### input:
+### Input
 
 ```terminal
 banana
@@ -128,7 +138,7 @@ lemon
 banana
 ```
 
-#### output:
+### Output
 
 ```terminal
 Client list: [BANANA, LIMÃO, UVA, PÊRA, GRAPE, ORANGE, LEMON]
