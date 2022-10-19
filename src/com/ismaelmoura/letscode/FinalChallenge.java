@@ -10,14 +10,13 @@ public class FinalChallenge {
     public static void main(String[] args) {
         final List<String> AVAILABLE_FRUITS = Arrays.asList("ORANGE", "BANANA", "GRAPE", "LEMON");
 
-
         List<String> clientList = createClientList();
         List<String> purchasedFruits = checkAvailableFruits(AVAILABLE_FRUITS, clientList);
-        int matchPercentage = calculateMatchPercentage(clientList, purchasedFruits);
+        String matchPercentage = calculateMatchPercentage(clientList, purchasedFruits);
 
         System.out.println("Client list: " + clientList);
         System.out.println("Purchased fruits: " + purchasedFruits);
-        System.out.println(waiterTipMessage(matchPercentage));
+        System.out.println(matchPercentage);
     }
 
     public static List<String> createClientList() {
@@ -49,13 +48,10 @@ public class FinalChallenge {
                 .collect(Collectors.toList());
     }
 
-    public static int calculateMatchPercentage(List<String> clientList, List<String> purchasedFruits) {
+    public static String calculateMatchPercentage(List<String> clientList, List<String> purchasedFruits) {
         byte totalPercentage = 100;
+        int correspondence = (totalPercentage * purchasedFruits.size()) / clientList.size();
 
-        return (totalPercentage * purchasedFruits.size()) / clientList.size();
-    }
-
-    public static String waiterTipMessage(int correspondence) {
         if (correspondence >= 50 && correspondence < 75) {
             return correspondence + "% of correspondence, tip of R$ 3,00.";
         } else if (correspondence >= 75 && correspondence < 90) {
