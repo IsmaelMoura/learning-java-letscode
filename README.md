@@ -1,6 +1,6 @@
 # Java Exercises - Let's Code
 
-Esse projeto contém 5 exercios de Java feito pela Let's Code (Ada Tech).
+This repository contains 5 Java exercises made by Let's Code (Ada Tech).
 
 ## Java Version
 - 18.0.2
