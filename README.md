@@ -13,7 +13,7 @@ This repository contains 5 Java exercises made by Let's Code (Ada Tech).
 You can find the original document (in portuguese) here: [java-exercises-list-and-final-challenge](./java-exercises-list-and-final-challenge.pdf)
 
 ## Question 1
-Write a program which inform the multiplication table of a number informed by user (1 to 10).
+Write a program that informs the multiplication table of a number informed by user (1 to 10).
 
 ### Input
 
@@ -52,7 +52,7 @@ The equivalent of 33.00°C is 91.40°F
 ```
 
 ## Question 3
-Write a program that read the name of 5 fruits and stock in the shopping cart.
+Write a program that reads the name of 5 fruits and stock in the shopping cart.
 In the end of 5 entries, show the complete list
 
 ### Input
@@ -68,7 +68,7 @@ apple
 ### Output
 
 ```terminal
-Your shopping car has: 
+Your shopping cart has: 
 [BANANA, LEMON, APPLE]
 ```
 
@@ -76,8 +76,8 @@ Your shopping car has:
 A supermarket announce dearly a list of 5 fruits on sale.
 Write a program that receive the name of fruit do you want to buy and inform if that fruit is on sale.
 
-For example:<br>
-fruits on sale today: **[ORANGE, BANANA, GRAPE, LEMON]**
+For example: <br>
+Fruits on sale today: **[ORANGE, BANANA, GRAPE, LEMON]**
 
 ### Input
 
@@ -119,7 +119,7 @@ Therefore, you will receive a 5% discount.
 
 ## Final challenge
 Write a program that calculates the buyer's tip based on the correspondence between what was ordered
-and what was actually purchased. Following the following parameters:
+and what was actually purchased. Following those parameters:
 
 - Purchases correspond to **50% or more** of the list, tip of **R$ 3.00**;
 - Purchases correspond to **75% or more** of the list, tip of **R$ 5.00**;

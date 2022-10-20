@@ -21,7 +21,7 @@ public class ExerciseThree {
                 .distinct()
                 .collect(Collectors.toList());
 
-        System.out.println("\nYour shopping car has: ");
+        System.out.println("\nYour shopping cart has: ");
         System.out.print(shoppingCart);
     }
 }
