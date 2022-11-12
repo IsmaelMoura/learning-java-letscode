@@ -21,7 +21,7 @@ public class ExerciseFive {
 
         System.out.println("--- Welcome to Java Hort fruit! ---");
         System.out.println("Choose any fruits to your cart. (Leave empty to finish).");
-        chosenFruit = scanner.nextLine();
+        chosenFruit = scanner.nextLine().trim();
 
         while (!chosenFruit.isEmpty()) {
             for (String fruit : FRUITS_LIST_ON_SALE) {
@@ -30,7 +30,7 @@ public class ExerciseFive {
                     break;
                 }
             }
-            chosenFruit = scanner.nextLine();
+            chosenFruit = scanner.nextLine().trim();
         }
 
         scanner.close();

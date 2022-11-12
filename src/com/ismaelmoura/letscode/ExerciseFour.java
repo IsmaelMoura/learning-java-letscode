@@ -12,7 +12,7 @@ public class ExerciseFour {
         String chosenFruit;
 
         System.out.print("Which fruit you will bought? ");
-        chosenFruit = scanner.next();
+        chosenFruit = scanner.next().trim();
         scanner.close();
 
         if (FRUITS_ON_SALE_TODAY.contains(chosenFruit.toUpperCase())) {

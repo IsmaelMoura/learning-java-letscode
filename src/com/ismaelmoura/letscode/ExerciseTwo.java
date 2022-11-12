@@ -10,6 +10,7 @@ public class ExerciseTwo {
 
         System.out.print("Enter a celsius temperature: ");
         celsiusTemperature = scanner.nextDouble();
+
         scanner.close();
 
         System.out.printf("\nThe equivalent of %.2f°C is %.2f°F", celsiusTemperature, celsiusToFahrenheit(celsiusTemperature));

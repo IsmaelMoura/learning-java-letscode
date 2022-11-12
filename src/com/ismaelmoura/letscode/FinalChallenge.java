@@ -26,11 +26,11 @@ public class FinalChallenge {
         String currentFruit;
 
         System.out.println("Which fruits you'll buy today? (Leave empty to finish)");
-        currentFruit = scanner.nextLine();
+        currentFruit = scanner.nextLine().trim();
         list.add(currentFruit.toUpperCase());
 
         while (!currentFruit.isEmpty()) {
-            currentFruit = scanner.nextLine();
+            currentFruit = scanner.nextLine().trim();
             list.add(currentFruit.toUpperCase());
         }
 
