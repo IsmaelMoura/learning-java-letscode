@@ -2,8 +2,8 @@
 
 This repository contains 5 Java exercises made by Let's Code (Ada Tech).
 
-## Java Version
-- 18.0.2
+## JDK Version
+- Zulu 17.0.5 LTS
 
 ## IDE
 - IntelliJ IDEA Community Edition 2022.1.4
@@ -13,7 +13,7 @@ This repository contains 5 Java exercises made by Let's Code (Ada Tech).
 You can find the original document (in portuguese) here: [java-exercises-list-and-final-challenge](./java-exercises-list-and-final-challenge.pdf)
 
 ## Question 1
-Write a program that informs the multiplication table of a number informed by user (1 to 10).
+Write a program that informs the multiplication table (1 to 10) of a number informed by user.
 
 ### Input
 
@@ -53,7 +53,7 @@ The equivalent of 33.00°C is 91.40°F
 
 ## Question 3
 Write a program that reads the name of 5 fruits and stock in the shopping cart.
-In the end of 5 entries, show the complete list
+In the end of 5 entries, show the complete list.
 
 ### Input
 
@@ -68,13 +68,13 @@ apple
 ### Output
 
 ```terminal
-Your shopping cart has: 
+Your shopping cart have: 
 [BANANA, LEMON, APPLE]
 ```
 
 ## Question 4
-A supermarket announce dearly a list of 5 fruits on sale.
-Write a program that receive the name of fruit do you want to buy and inform if that fruit is on sale.
+A supermarket daily announce a list of 5 fruits on sale.
+Write a program that receive the name of fruit do you want to buy and inform if this fruit is on sale.
 
 For example: <br>
 Fruits on sale today: **[ORANGE, BANANA, GRAPE, LEMON]**
@@ -94,7 +94,7 @@ Good choice! This fruit is on sale today.
 ## Question 5
 Write a program that compares a shopping list and calculates the 5% discount accrued for each fruit found on the list.
 
-For example:
+For example: <br>
 Fruits on sale today: **[BANANA, PINEAPPLE, WATERMELON, LEMON, GRAPE]**
 
 ### Input
@@ -118,7 +118,7 @@ Therefore, you will receive a 5% discount.
 ```
 
 ## Final challenge
-Write a program that calculates the buyer's tip based on the correspondence between what was ordered
+Write a program that calculates the buyer's tip based on the correspondence between what was requested
 and what was actually purchased. Following those parameters:
 
 - Purchases correspond to **50% or more** of the list, tip of **R$ 3.00**;

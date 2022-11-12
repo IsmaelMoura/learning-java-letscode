@@ -24,7 +24,7 @@ public class ExerciseThree {
                 .filter(item -> item != null && !"".equals(item))
                 .collect(Collectors.toList());
 
-        System.out.println("\nYour shopping cart has: ");
+        System.out.println("\nYour shopping cart have: ");
         System.out.print(shoppingCart);
     }
 }
