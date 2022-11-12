@@ -34,6 +34,8 @@ public class FinalChallenge {
             list.add(currentFruit.toUpperCase());
         }
 
+        scanner.close();
+
         return list
                 .stream()
                 .distinct()

@@ -7,14 +7,16 @@ import java.util.stream.Collectors;
 
 public class ExerciseThree {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         List<String> shoppingCart = new ArrayList<>();
 
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Insert five fruits into your shopping cart (one fruit per row): ");
 
         for (int i = 0; i < 5; i++) {
-            System.out.print("Enter a fruit to your shopping cart: ");
-            shoppingCart.add(scanner.next().toUpperCase());
+            shoppingCart.add(scanner.nextLine().toUpperCase());
         }
+
+        scanner.close();
 
         shoppingCart = shoppingCart
                 .stream()

@@ -19,7 +19,7 @@ public class ExerciseFive {
         List<String> chosenFruitsOnSale = new ArrayList<>();
         String chosenFruit;
 
-        System.out.println("--- Welcome to Java Hortfruit! ---");
+        System.out.println("--- Welcome to Java Hort fruit! ---");
         System.out.println("Choose any fruits to your cart. (Leave empty to finish).");
         chosenFruit = scanner.nextLine();
 
@@ -32,6 +32,8 @@ public class ExerciseFive {
             }
             chosenFruit = scanner.nextLine();
         }
+
+        scanner.close();
 
         return chosenFruitsOnSale
                 .stream()

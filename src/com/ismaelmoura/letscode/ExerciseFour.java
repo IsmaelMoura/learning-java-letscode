@@ -2,9 +2,7 @@ package com.ismaelmoura.letscode;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class ExerciseFour {
     public static void main(String[] args) {
@@ -15,6 +13,7 @@ public class ExerciseFour {
 
         System.out.print("Which fruit you will bought? ");
         chosenFruit = scanner.next();
+        scanner.close();
 
         if (FRUITS_ON_SALE_TODAY.contains(chosenFruit.toUpperCase())) {
             System.out.println("Good choice! This fruit is on sale today.");
