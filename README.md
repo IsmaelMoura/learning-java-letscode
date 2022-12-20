@@ -12,7 +12,7 @@ This repository contains 5 Java exercises made by Let's Code (Ada Tech).
 
 You can find the original document (in portuguese) here: [java-exercises-list-and-final-challenge](./java-exercises-list-and-final-challenge.pdf)
 
-## Question 1
+## [Question 1](./src/com/ismaelmoura/letscode/ExerciseOne.java)
 Write a program that informs the multiplication table (1 to 10) of a number informed by user.
 
 ### Input
@@ -36,7 +36,7 @@ Write a program that informs the multiplication table (1 to 10) of a number info
 37 X 10 = 370
 ```
 
-## Question 2
+## [Question 2](./src/com/ismaelmoura/letscode/ExerciseTwo.java)
 Write a program that converts the temperature from Celsius to Fahrenheit.
 
 ### Input
@@ -51,7 +51,7 @@ Write a program that converts the temperature from Celsius to Fahrenheit.
 The equivalent of 33.00°C is 91.40°F
 ```
 
-## Question 3
+## [Question 3](./src/com/ismaelmoura/letscode/ExerciseThree.java)
 Write a program that reads the name of 5 fruits and stock in the shopping cart.
 In the end of 5 entries, show the complete list.
 
@@ -72,7 +72,7 @@ Your shopping cart have:
 [BANANA, LEMON, APPLE]
 ```
 
-## Question 4
+## [Question 4](./src/com/ismaelmoura/letscode/ExerciseFour.java)
 A supermarket daily announce a list of 5 fruits on sale.
 Write a program that receive the name of fruit do you want to buy and inform if this fruit is on sale.
 
@@ -91,7 +91,7 @@ grape
 Good choice! This fruit is on sale today.
 ```
 
-## Question 5
+## [Question 5](./src/com/ismaelmoura/letscode/ExerciseFive.java)
 Write a program that compares a shopping list and calculates the 5% discount accrued for each fruit found on the list.
 
 For example: <br>
@@ -117,7 +117,7 @@ You bought this fruits on sale: [BANANA]
 Therefore, you will receive a 5% discount.
 ```
 
-## Final challenge
+## [Final challenge](./src/com/ismaelmoura/letscode/FinalChallenge.java)
 Write a program that calculates the buyer's tip based on the correspondence between what was requested
 and what was actually purchased. Following those parameters:
 
